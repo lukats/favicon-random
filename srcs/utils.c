@@ -6,11 +6,11 @@
 /*   By: lutsiara <lutsiara@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/01/18 16:41:12 by lutsiara          #+#    #+#             */
-/*   Updated: 2022/01/18 16:43:13 by lutsiara         ###   ########.fr       */
+/*   Updated: 2022/02/04 19:44:44 by lutsiara         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "favicon-mod.h"
+#include "favicon-random.h"
 
 int     strisdigit(char *str)
 {
