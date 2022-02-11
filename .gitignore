@@ -1,3 +1,4 @@
 *.o
 favicon.png
 favicon
+.DS_Store
