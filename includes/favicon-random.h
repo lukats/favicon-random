@@ -6,7 +6,7 @@
 /*   By: lutsiara <lutsiara@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/01/18 16:30:02 by lutsiara          #+#    #+#             */
-/*   Updated: 2022/02/05 16:18:56 by lutsiara         ###   ########.fr       */
+/*   Updated: 2022/02/11 22:30:39 by lutsiara         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -19,6 +19,7 @@
 # include <time.h>
 # include <string.h>
 # include <dirent.h>
+# include <fcntl.h>
 
 # include <MagickWand/MagickWand.h>
 

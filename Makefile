@@ -6,11 +6,11 @@
 #    By: lutsiara <lutsiara@student.42.fr>          +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2022/01/18 16:29:53 by lutsiara          #+#    #+#              #
-#    Updated: 2022/02/11 21:13:50 by lutsiara         ###   ########.fr        #
+#    Updated: 2022/02/11 22:42:07 by lutsiara         ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
-NAME := favicon.png
+NAME := favicon
 
 SRCDIR := srcs/
 SRC := main.c

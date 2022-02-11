@@ -16,3 +16,16 @@
 ## dependencies :
 
 - [imagemagick](https://imagemagick.org/script/index.php)
+
+## build :
+
+- in the folder
+- ```sh
+make
+```
+
+## execution :
+
+```sh
+./favicon > favicon.png
+```
