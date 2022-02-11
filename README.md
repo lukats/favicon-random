@@ -12,3 +12,7 @@
 - [JPEG ALGO](https://www.freecodecamp.org/news/how-jpg-works-a4dbd2316f35/)
 - [IMAGE MAGICK WAND](https://imagemagick.org/script/magick-wand.php)
 - [IMAGE MAGICK CORE](https://imagemagick.org/api/MagickCore/index.html)
+
+## dependencies :
+
+- [imagemagick](https://imagemagick.org/script/index.php)

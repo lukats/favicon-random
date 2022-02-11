@@ -6,7 +6,7 @@
 /*   By: lutsiara <lutsiara@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/01/18 16:30:02 by lutsiara          #+#    #+#             */
-/*   Updated: 2022/02/04 19:50:40 by lutsiara         ###   ########.fr       */
+/*   Updated: 2022/02/05 16:18:56 by lutsiara         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -16,9 +16,33 @@
 # include <unistd.h>
 # include <stdlib.h>
 # include <ctype.h>
+# include <time.h>
+# include <string.h>
+# include <dirent.h>
 
-int     strisdigit(char *str);
-int     exit_error_16x16(void);
-int     compose_png(void **png, unsigned int *png_sizeg);
+# include <MagickWand/MagickWand.h>
+
+# ifdef DEFINE_RESSOURCES_PATHS
+
+const char * const g_paths[] = {
+    "./ressources/body/",
+    "./ressources/eyes/",
+    "./ressources/mouth/",
+    "./ressources/noz/",
+    "./ressources/left-ear/",
+    "./ressources/right-ear/",
+    "./ressources/eye-brow/",
+    "./ressources/head-top/",
+    0
+};
+
+# else
+
+extern const char * const g_paths[];
+
+# endif
+
+# define DIR_NB 8
+# define FILE_EXT ".png"
 
 #endif
