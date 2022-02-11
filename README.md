@@ -19,8 +19,8 @@
 
 ## build :
 
-- in the folder
-- ```sh
+in the folder
+```sh
 make
 ```
 
